@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DatoSeriVida Berkongsi — Undian Berkongsi Hadiah Jutaan Ringgit</title>
-  <meta name="description" content="DatoSeriVida Berkongsi — Berkongsi kebahagiaan untuk semua. Sertai undian dan menangi Hadiah Umrah, Wang Tunai, Kereta, Motor, dan Pakej Modal Perniagaan!" />
+  <title>Ebit Lew Berkongsi — Undian Berkongsi Hadiah Jutaan Ringgit</title>
+  <meta name="description" content="Ebit Lew Berkongsi — Berkongsi kasih sayang dan kebahagiaan untuk semua. Sertai undian dan menangi Hadiah Umrah, Wang Tunai, Kereta, Motor, dan Pakej Modal Perniagaan!" />
   <style>
     /* ========== RESET & BASE ========== */
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
     body {
-      font-family: Arial, sans-serif;
-      background: #ffffff;
-      color: #333;
+      font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
       line-height: 1.6;
       overflow-x: hidden;
     }
@@ -32,31 +32,31 @@
     /* ========== HERO SECTION ========== */
     .hero {
       position: relative;
-      background: #ffffff;
+      background: linear-gradient(180deg, #ffffff 0%, #f0fdfa 100%);
       padding: 60px 20px 80px;
       text-align: center;
-      color: #333;
+      color: #0f172a;
       overflow: hidden;
-      border-bottom: 3px solid #d4af37;
+      border-bottom: 3px solid #0d9488;
     }
     .hero::before {
       content: '';
       position: absolute;
       top: -50%; left: -50%;
       width: 200%; height: 200%;
-      background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, transparent 50%);
+      background: radial-gradient(circle, rgba(13,148,136,0.1) 0%, transparent 50%);
       animation: pulse-bg 4s ease-in-out infinite;
     }
     @keyframes pulse-bg {
-      0%, 100% { transform: scale(1); opacity: 0.5; }
+      0%, 100% { transform: scale(1); opacity: 0.6; }
       50% { transform: scale(1.1); opacity: 1; }
     }
 
     .hero-content { position: relative; z-index: 2; max-width: 900px; margin: 0 auto; }
 
-    /* Profile photo with gold ring */
+    /* Profile photo with teal/emerald glowing ring */
     .profile-photo-wrap {
-      width: 280px; height: 280px;
+      width: 260px; height: 260px;
       margin: 0 auto 24px;
       position: relative;
     }
@@ -64,9 +64,9 @@
       position: absolute;
       inset: -6px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #f0c75e, #d4af37, #f0c75e);
-      animation: spin-ring 3s linear infinite;
-      box-shadow: 0 0 25px rgba(212,175,55,0.4);
+      background: linear-gradient(135deg, #14b8a6, #0d9488, #059669);
+      animation: spin-ring 4s linear infinite;
+      box-shadow: 0 0 25px rgba(13,148,136,0.35);
     }
     @keyframes spin-ring {
       from { transform: rotate(0deg); }
@@ -76,37 +76,38 @@
       width: 100%; height: 100%;
       border-radius: 50%;
       object-fit: cover;
-      border: 4px solid #f0c75e;
+      border: 4px solid #14b8a6;
       position: relative;
       z-index: 1;
-      background: #ddd;
+      background: #e2e8f0;
     }
 
     /* Name with verified badge */
     .hero-name {
       font-size: 2.8rem;
-      font-weight: bold;
+      font-weight: 800;
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       flex-wrap: wrap;
       justify-content: center;
-      color: #4a3c2a;
+      color: #0f766e;
+      letter-spacing: -0.5px;
     }
     .verified-badge {
       display: inline-flex;
       align-items: center;
       justify-content: center;
       width: 32px; height: 32px;
-      background: #d4af37;
+      background: #0284c7;
       border-radius: 50%;
       font-size: 18px;
       flex-shrink: 0;
       color: #fff;
-      box-shadow: 0 0 10px rgba(212,175,55,0.5);
+      box-shadow: 0 0 10px rgba(2,132,199,0.4);
     }
 
-    /* BERKONGSI with gold line */
+    /* BERKONGSI with teal lines */
     .berbagi-text {
       display: flex;
       align-items: center;
@@ -117,23 +118,24 @@
     .berbagi-line {
       height: 3px;
       width: 50px;
-      background: linear-gradient(90deg, transparent, #d4af37, transparent);
+      background: linear-gradient(90deg, transparent, #0d9488, transparent);
       border-radius: 2px;
     }
     .berbagi-text span {
-      font-size: 1.4rem;
-      font-weight: bold;
+      font-size: 1.35rem;
+      font-weight: 800;
       letter-spacing: 6px;
-      color: #d4af37;
+      color: #0d9488;
     }
 
     .tagline {
       font-size: 1.15rem;
       margin-bottom: 36px;
-      color: #8a7a5a;
+      color: #475569;
+      font-weight: 500;
     }
 
-    /* Stat cards glass-morphism */
+    /* Stat cards */
     .stat-cards {
       display: flex;
       gap: 20px;
@@ -142,42 +144,45 @@
       margin-bottom: 36px;
     }
     .stat-card {
-      background: rgba(212,175,55,0.05);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(212,175,55,0.3);
+      background: #ffffff;
+      border: 1px solid rgba(13,148,136,0.25);
       border-radius: 16px;
       padding: 20px 36px;
       min-width: 180px;
+      box-shadow: 0 4px 15px rgba(13,148,136,0.08);
     }
     .stat-card-value {
       font-size: 1.8rem;
-      font-weight: bold;
-      color: #b8941f;
+      font-weight: 800;
+      color: #0f766e;
     }
     .stat-card-label {
       font-size: 0.85rem;
       margin-top: 4px;
-      color: #8a7a5a;
+      color: #64748b;
+      font-weight: 500;
     }
 
-    /* CTA button with pulse */
+    /* CTA button */
     .cta-btn {
       display: inline-block;
-      background: linear-gradient(135deg, #f0c75e, #d4af37);
-      color: #1a1a1a;
+      background: linear-gradient(135deg, #0d9488, #059669);
+      color: #ffffff;
       font-size: 1.1rem;
       font-weight: bold;
       padding: 16px 48px;
       border-radius: 50px;
-      box-shadow: 0 4px 20px rgba(212,175,55,0.4);
+      box-shadow: 0 4px 20px rgba(13,148,136,0.4);
       animation: pulse-btn 2s ease-in-out infinite;
-      transition: transform 0.2s;
+      transition: transform 0.2s, background 0.2s;
     }
-    .cta-btn:hover { transform: scale(1.05); }
+    .cta-btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #0f766e, #047857);
+    }
     @keyframes pulse-btn {
-      0%, 100% { box-shadow: 0 4px 20px rgba(212,175,55,0.4); }
-      50% { box-shadow: 0 4px 40px rgba(212,175,55,0.7); }
+      0%, 100% { box-shadow: 0 4px 20px rgba(13,148,136,0.4); }
+      50% { box-shadow: 0 4px 35px rgba(13,148,136,0.7); }
     }
 
     /* ========== SECTION COMMON ========== */
@@ -188,17 +193,14 @@
     }
     .section-title {
       text-align: center;
-      font-size: 2rem;
-      font-weight: bold;
+      font-size: 2.1rem;
+      font-weight: 800;
       margin-bottom: 12px;
-      background: linear-gradient(135deg, #8b6914, #d4af37);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      color: #0f766e;
     }
     .section-subtitle {
       text-align: center;
-      color: #8a7a5a;
+      color: #64748b;
       margin-bottom: 40px;
       font-size: 1rem;
     }
@@ -206,47 +208,54 @@
     /* ========== TESTIMONI ========== */
     .testi-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
     }
     .testi-card {
       text-align: center;
+      background: #ffffff;
+      padding: 18px;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .testi-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(13,148,136,0.15);
+      border-color: #0d9488;
     }
     .testi-photo {
       width: 100%;
-      aspect-ratio: 1 / 1;
+      aspect-ratio: 4 / 3;
       object-fit: cover;
       border-radius: 12px;
-      border: 2px solid #e8d5a0;
-      transition: border-color 0.3s, box-shadow 0.3s;
-    }
-    .testi-card:hover .testi-photo {
-      border-color: #d4af37;
-      box-shadow: 0 4px 20px rgba(212,175,55,0.3);
+      border: 2px solid #ccfbf1;
+      margin-bottom: 12px;
     }
     .testi-caption {
-      margin-top: 10px;
       font-size: 0.9rem;
-      color: #6b5a3a;
+      color: #334155;
       font-weight: 500;
+      line-height: 1.45;
     }
 
     /* ========== VIDEO ========== */
     .video-grid {
       display: flex;
       justify-content: center;
-      gap: 24px;
+      gap: 28px;
       flex-wrap: wrap;
     }
     .video-wrap {
       position: relative;
       width: 100%;
       max-width: 350px;
-      height: 580px;
-      border-radius: 16px;
+      height: 600px;
+      border-radius: 20px;
       overflow: hidden;
-      box-shadow: 0 8px 25px rgba(139,105,20,0.18);
-      border: 2px solid rgba(212,175,55,0.4);
+      box-shadow: 0 8px 30px rgba(15,118,110,0.15);
+      border: 2px solid rgba(13,148,136,0.3);
       background: #000;
     }
     .video-wrap iframe {
@@ -254,6 +263,30 @@
       top: 0; left: 0;
       width: 100%; height: 100%;
       border: none;
+    }
+    .video-item-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .video-direct-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #0f766e;
+      background: #ffffff;
+      padding: 8px 18px;
+      border-radius: 20px;
+      border: 1px solid #ccfbf1;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: background 0.2s;
+    }
+    .video-direct-link:hover {
+      background: #f0fdfa;
+      border-color: #0d9488;
     }
 
     /* ========== UNDIAN BERKONGSI ========== */
@@ -265,13 +298,13 @@
       margin-bottom: 40px;
     }
     .prize-tag {
-      background: linear-gradient(135deg, #f0c75e, #d4af37);
-      color: #4a3c2a;
+      background: linear-gradient(135deg, #0d9488, #059669);
+      color: #ffffff;
       padding: 10px 24px;
       border-radius: 50px;
       font-size: 0.9rem;
       font-weight: 600;
-      box-shadow: 0 2px 10px rgba(212,175,55,0.3);
+      box-shadow: 0 2px 10px rgba(13,148,136,0.25);
     }
 
     .form-container {
@@ -280,8 +313,8 @@
       background: #ffffff;
       border-radius: 20px;
       padding: 36px;
-      border: 2px solid #e8d5a0;
-      box-shadow: 0 2px 15px rgba(212,175,55,0.1);
+      border: 2px solid #ccfbf1;
+      box-shadow: 0 4px 20px rgba(13,148,136,0.08);
     }
     .form-group { margin-bottom: 20px; }
     .form-group label {
@@ -289,30 +322,31 @@
       font-size: 0.9rem;
       font-weight: 600;
       margin-bottom: 6px;
-      color: #6b5a3a;
+      color: #0f766e;
     }
     .form-group input,
     .form-group textarea,
     .form-group select {
       width: 100%;
       padding: 12px 16px;
-      border: 2px solid #e8d5a0;
+      border: 2px solid #e2e8f0;
       border-radius: 10px;
       font-size: 0.95rem;
       font-family: inherit;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
       background: #fff;
+      color: #1e293b;
     }
     .form-group input:focus,
     .form-group textarea:focus,
     .form-group select:focus {
       outline: none;
-      border-color: #d4af37;
-      box-shadow: 0 0 0 3px rgba(212,175,55,0.1);
+      border-color: #0d9488;
+      box-shadow: 0 0 0 3px rgba(13,148,136,0.15);
     }
     .form-group textarea { resize: vertical; min-height: 80px; }
     .form-error {
-      color: #c62828;
+      color: #dc2626;
       font-size: 0.8rem;
       margin-top: 4px;
       display: none;
@@ -321,13 +355,14 @@
 
     .btn-primary {
       width: 100%;
-      background: linear-gradient(135deg, #f0c75e, #d4af37);
-      color: #4a3c2a;
+      background: linear-gradient(135deg, #0d9488, #059669);
+      color: #ffffff;
       font-size: 1.05rem;
       font-weight: bold;
       padding: 14px;
       border-radius: 10px;
       transition: transform 0.2s, opacity 0.2s;
+      box-shadow: 0 4px 12px rgba(13,148,136,0.25);
     }
     .btn-primary:hover { transform: scale(1.02); }
     .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
@@ -340,9 +375,10 @@
       padding: 30px 20px;
       background: #ffffff;
       border-radius: 20px;
-      border: 2px solid #e8d5a0;
+      border: 2px solid #ccfbf1;
       overflow: hidden;
       box-sizing: border-box;
+      box-shadow: 0 4px 20px rgba(13,148,136,0.08);
     }
     .spin-section.show { display: block; }
 
@@ -357,10 +393,10 @@
     .wheel {
       width: 100%; height: 100%;
       border-radius: 50%;
-      border: 8px solid #d4af37;
+      border: 8px solid #0f766e;
       position: relative;
       transition: transform 4s cubic-bezier(0.17, 0.67, 0.12, 0.99);
-      box-shadow: 0 0 30px rgba(212,175,55,0.3);
+      box-shadow: 0 0 30px rgba(13,148,136,0.25);
       overflow: hidden;
     }
     .wheel-pointer {
@@ -370,7 +406,7 @@
       width: 0; height: 0;
       border-left: 16px solid transparent;
       border-right: 16px solid transparent;
-      border-top: 28px solid #c62828;
+      border-top: 28px solid #dc2626;
       z-index: 10;
       filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
     }
@@ -378,22 +414,23 @@
       position: absolute;
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
-      width: 50px; height: 50px;
+      width: 52px; height: 52px;
       background: #fff;
-      border: 4px solid #d4af37;
+      border: 4px solid #0f766e;
       border-radius: 50%;
       z-index: 5;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 22px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     }
 
     .wheel-label {
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 83px;
+      width: 88px;
       text-align: center;
       transform-origin: 0 0;
       transform: rotate(var(--angle)) translateX(var(--wheel-radius)) translate(-50%, -50%);
@@ -402,40 +439,43 @@
     }
     .wheel-label span {
       display: inline-block;
-      color: #4a3c2a;
-      font-size: 15px;
+      color: #ffffff;
+      font-size: 14px;
       font-weight: 800;
-      line-height: 1.25;
+      line-height: 1.2;
       word-wrap: break-word;
       white-space: normal;
-      text-shadow: 0 1px 2px rgba(255,255,255,0.7);
+      text-shadow: 0 1px 3px rgba(0,0,0,0.6);
       transform: rotate(calc(-1 * var(--angle)));
       transform-origin: center;
     }
 
     .spin-btn {
-      background: linear-gradient(135deg, #f0c75e, #d4af37);
-      color: #4a3c2a;
+      background: linear-gradient(135deg, #0d9488, #059669);
+      color: #ffffff;
       font-size: 1.1rem;
       font-weight: bold;
       padding: 14px 48px;
       border-radius: 50px;
-      box-shadow: 0 4px 15px rgba(212,175,55,0.4);
-      transition: transform 0.2s;
+      box-shadow: 0 4px 15px rgba(13,148,136,0.35);
+      transition: transform 0.2s, background 0.2s;
     }
-
-    .spin-btn:hover { transform: scale(1.05); }
+    .spin-btn:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #0f766e, #047857);
+    }
     .spin-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
     .spin-result {
       display: none;
-      margin-top: 20px;
+      margin-top: 24px;
+      padding: 20px;
+      background: #f0fdfa;
+      border-radius: 16px;
+      border: 1px solid #ccfbf1;
     }
     .spin-result.show { display: block; }
     .spin-result-text {
-      font-size: 1.3rem;
-      font-weight: bold;
-      color: #8b6914;
       margin-bottom: 16px;
     }
     .btn-whatsapp {
@@ -448,7 +488,7 @@
       font-weight: bold;
       padding: 14px 32px;
       border-radius: 50px;
-      box-shadow: 0 4px 15px rgba(37,211,102,0.4);
+      box-shadow: 0 4px 15px rgba(37,211,102,0.35);
       transition: transform 0.2s;
     }
     .btn-whatsapp:hover { transform: scale(1.05); }
@@ -460,73 +500,79 @@
     }
     .quiz-progress {
       text-align: center;
-      font-size: 0.85rem;
-      color: #8a7a5a;
+      font-size: 0.9rem;
+      color: #0f766e;
+      font-weight: 600;
       margin-bottom: 16px;
     }
     .quiz-question {
       background: #ffffff;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 2px solid #e8d5a0;
+      border: 2px solid #ccfbf1;
       border-radius: 16px;
       padding: 28px;
       margin-bottom: 20px;
-      box-shadow: 0 2px 12px rgba(212,175,55,0.08);
+      box-shadow: 0 4px 20px rgba(13,148,136,0.06);
     }
     .quiz-question-text {
       font-size: 1.15rem;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 20px;
-      color: #4a3c2a;
+      color: #0f172a;
     }
     .quiz-options { display: flex; flex-direction: column; gap: 10px; }
     .quiz-option {
       padding: 14px 20px;
-      border: 2px solid #e8d5a0;
+      border: 2px solid #e2e8f0;
       border-radius: 10px;
       background: #fff;
       font-size: 0.95rem;
       text-align: left;
       transition: all 0.2s;
-      color: #4a3c2a;
+      color: #334155;
+      font-weight: 500;
     }
-    .quiz-option:hover { border-color: #d4af37; background: #fff8e1; }
+    .quiz-option:hover { border-color: #0d9488; background: #f0fdfa; }
     .quiz-option.correct {
-      border-color: #4caf50;
-      background: #e8f5e9;
-      color: #2e7d32;
+      border-color: #059669;
+      background: #ecfdf5;
+      color: #065f46;
+      font-weight: 600;
     }
     .quiz-option.wrong {
-      border-color: #e53935;
-      background: #ffebee;
-      color: #c62828;
+      border-color: #dc2626;
+      background: #fef2f2;
+      color: #991b1b;
+      font-weight: 600;
     }
     .quiz-option.disabled { pointer-events: none; }
     .quiz-feedback {
-      margin-top: 12px;
-      padding: 10px 16px;
+      margin-top: 14px;
+      padding: 12px 16px;
       border-radius: 8px;
       font-size: 0.9rem;
       display: none;
+      line-height: 1.5;
     }
     .quiz-feedback.show { display: block; }
     .quiz-feedback.correct {
-      background: #e8f5e9;
-      color: #2e7d32;
+      background: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #a7f3d0;
     }
     .quiz-feedback.wrong {
-      background: #ffebee;
-      color: #c62828;
+      background: #fef2f2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
     }
     .quiz-next-btn {
-      margin-top: 16px;
-      background: linear-gradient(135deg, #f0c75e, #d4af37);
-      color: #4a3c2a;
+      margin-top: 18px;
+      background: linear-gradient(135deg, #0d9488, #059669);
+      color: #ffffff;
       padding: 12px 36px;
       border-radius: 50px;
-      font-weight: 600;
+      font-weight: 700;
       display: none;
+      box-shadow: 0 4px 12px rgba(13,148,136,0.25);
     }
     .quiz-next-btn.show { display: inline-block; }
     .quiz-next-btn:hover { transform: scale(1.03); }
@@ -535,58 +581,58 @@
     .quiz-result { display: none; text-align: center; }
     .quiz-result.show { display: block; }
     .quiz-score {
-      font-size: 2.5rem;
-      font-weight: bold;
+      font-size: 2.8rem;
+      font-weight: 800;
       margin-bottom: 8px;
+      color: #0f766e;
     }
-    .quiz-score-label { color: #8a7a5a; margin-bottom: 24px; }
+    .quiz-score-label { color: #475569; margin-bottom: 24px; font-weight: 600; }
 
     .quiz-proof-box {
       background: #ffffff;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 2px solid #e8d5a0;
+      border: 2px solid #ccfbf1;
       border-radius: 16px;
       padding: 24px;
       margin: 24px 0;
       text-align: left;
-      box-shadow: 0 2px 12px rgba(212,175,55,0.08);
+      box-shadow: 0 4px 15px rgba(13,148,136,0.06);
     }
     .quiz-proof-title {
-      font-weight: bold;
-      font-size: 1rem;
-      margin-bottom: 12px;
-      color: #8b6914;
+      font-weight: 800;
+      font-size: 1.05rem;
+      margin-bottom: 14px;
+      color: #0f766e;
       text-align: center;
     }
     .quiz-proof-item {
-      padding: 8px 0;
-      border-bottom: 1px solid #f0e6d0;
+      padding: 10px 0;
+      border-bottom: 1px solid #f1f5f9;
       font-size: 0.9rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      color: #4a3c2a;
+      color: #334155;
     }
     .quiz-proof-item:last-child { border-bottom: none; }
     .proof-badge {
-      padding: 2px 10px;
+      padding: 3px 12px;
       border-radius: 50px;
       font-size: 0.8rem;
-      font-weight: 600;
+      font-weight: 700;
     }
-    .proof-badge.correct { background: #e8f5e9; color: #2e7d32; }
-    .proof-badge.wrong { background: #ffebee; color: #c62828; }
+    .proof-badge.correct { background: #ecfdf5; color: #065f46; }
+    .proof-badge.wrong { background: #fef2f2; color: #991b1b; }
 
     .quiz-disclaimer {
-      background: #fffde7;
-      border: 1px solid #fff9c4;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
       border-radius: 10px;
       padding: 14px;
       font-size: 0.85rem;
-      color: #f57f17;
+      color: #0f766e;
       margin: 16px 0;
       text-align: center;
+      font-weight: 500;
     }
 
     .btn-wa-green {
@@ -599,7 +645,7 @@
       font-weight: bold;
       padding: 14px 32px;
       border-radius: 50px;
-      box-shadow: 0 4px 15px rgba(37,211,102,0.4);
+      box-shadow: 0 4px 15px rgba(37,211,102,0.35);
       transition: transform 0.2s;
       margin: 8px;
     }
@@ -607,46 +653,47 @@
 
     .btn-retry {
       background: #fff;
-      color: #8b6914;
-      border: 2px solid #d4af37;
+      color: #0f766e;
+      border: 2px solid #0d9488;
       padding: 12px 32px;
       border-radius: 50px;
       font-weight: 600;
       margin: 8px;
       transition: all 0.2s;
     }
-    .btn-retry:hover { background: #d4af37; color: #fff; }
+    .btn-retry:hover { background: #0d9488; color: #fff; }
 
     /* ========== FOOTER ========== */
     .footer {
       background: #ffffff;
-      border-top: 3px solid #d4af37;
-      color: #4a3c2a;
+      border-top: 3px solid #0d9488;
+      color: #334155;
       text-align: center;
       padding: 40px 20px;
     }
     .footer h3 {
-      font-size: 1.3rem;
+      font-size: 1.35rem;
       margin-bottom: 8px;
-      color: #d4af37;
+      color: #0f766e;
+      font-weight: 800;
     }
-    .footer p { font-size: 0.85rem; color: #8a7a5a; }
+    .footer p { font-size: 0.85rem; color: #64748b; }
 
     /* ========== RESPONSIVE ========== */
     @media (max-width: 768px) {
-      .hero-name { font-size: 2rem; }
+      .hero-name { font-size: 2.1rem; }
       .berbagi-text span { font-size: 1.1rem; letter-spacing: 4px; }
       .berbagi-line { width: 30px; }
       .testi-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
-      .video-grid { grid-template-columns: 1fr; }
+      .video-grid { flex-direction: column; align-items: center; }
       .stat-card { min-width: 140px; padding: 16px 24px; }
       .stat-card-value { font-size: 1.4rem; }
-      .section-title { font-size: 1.5rem; }
+      .section-title { font-size: 1.6rem; }
       .form-container { padding: 24px; }
-      .wheel-container { width: 240px; height: 240px; }
+      .wheel-container { width: 260px; height: 260px; }
     }
     @media (max-width: 480px) {
-      .hero-name { font-size: 1.6rem; }
+      .hero-name { font-size: 1.7rem; }
       .profile-photo-wrap { width: 200px; height: 200px; }
       .testi-grid { grid-template-columns: 1fr 1fr; }
       .stat-cards { flex-direction: column; align-items: center; }
@@ -654,7 +701,7 @@
       .wheel-container { width: 280px; height: 280px; --wheel-radius: 82px; }
       .wheel-label { width: 78px !important; font-size: 11px !important; line-height: 1.15 !important; transform: rotate(var(--angle)) translateX(var(--wheel-radius)) translate(-50%, -50%) !important; }
       .wheel-center { width: 40px !important; height: 40px !important; font-size: 18px !important; }
-      .wheel-pointer { border-left: 12px solid transparent !important; border-right: 12px solid transparent !important; border-top: 22px solid #c62828 !important; top: -14px !important; }
+      .wheel-pointer { border-left: 12px solid transparent !important; border-right: 12px solid transparent !important; border-top: 22px solid #dc2626 !important; top: -14px !important; }
     }
   </style>
 </head>
@@ -666,19 +713,19 @@
 <!-- ===== 1. HERO SECTION ===== -->
 <header class="hero">
   <div class="hero-content">
-    <!-- Profile photo with gold ring -->
+    <!-- Profile photo with emerald ring -->
     <div class="profile-photo-wrap">
       <div class="profile-photo-ring"></div>
-      <img src="img/baru.jpeg" alt="DatoSeriVida" class="profile-photo" />
+      <img src="img/ebit-lew.jpg" alt="Ebit Lew" class="profile-photo" />
     </div>
 
     <!-- Name + verified -->
     <h1 class="hero-name">
-      DatoSeriVida
+      Ebit Lew
       <span class="verified-badge" title="Verified">&#10003;</span>
     </h1>
 
-    <!-- BERKONGSI with gold lines -->
+    <!-- BERKONGSI with teal lines -->
     <div class="berbagi-text">
       <div class="berbagi-line"></div>
       <span>BERKONGSI</span>
@@ -686,17 +733,17 @@
     </div>
 
     <!-- Tagline -->
-    <p class="tagline">Berkongsi Kebahagiaan Untuk Semua</p>
+    <p class="tagline">Berkongsi Kasih Sayang &amp; Kebahagiaan Untuk Semua</p>
 
     <!-- Stat cards -->
     <div class="stat-cards">
       <div class="stat-card">
         <div class="stat-card-value">Ratusan Juta</div>
-        <div class="stat-card-label">Jumlah Hadiah</div>
+        <div class="stat-card-label">Jumlah Hadiah &amp; Bantuan</div>
       </div>
       <div class="stat-card">
         <div class="stat-card-value">1.500+</div>
-        <div class="stat-card-label">Penerima Undian</div>
+        <div class="stat-card-label">Penerima Undian &amp; Asnaf</div>
       </div>
     </div>
 
@@ -707,39 +754,57 @@
 
 <!-- ===== 2. TESTIMONI PEMENANG ===== -->
 <section class="section" id="testimoni">
-  <h2 class="section-title">Testimoni Pemenang</h2>
-  <p class="section-subtitle">Mereka adalah bukti nyata penerima hadiah daripada program berkongsi DatoSeriVida</p>
+  <h2 class="section-title">Testimoni &amp; Misi Kasih</h2>
+  <p class="section-subtitle">Bukti nyata sumbangan, bantuan kebajikan dan kegembiraan asnaf bersama Ustaz Ebit Lew</p>
   <div class="testi-grid">
     <div class="testi-card">
-      <img src="img/foto1.jpeg" alt="Pemenang Hadiah Wang Tunai" class="testi-photo" />
-      <p class="testi-caption">"Alhamdulillah, dapat bantuan Wang Tunai! Terima kasih Dato' Seri Vida!" — Ahmad, Kuala Lumpur</p>
+      <img src="img/testi1.jpg" alt="Bantuan Rumah Baharu" class="testi-photo" />
+      <p class="testi-caption">"Alhamdulillah, bantuan pembinaan rumah baharu untuk mangsa kebakaran. Terima kasih Ustaz Ebit Lew!" — Encik Halim, Pahang</p>
     </div>
     <div class="testi-card">
-      <img src="img/foto3.jpeg" alt="Pemenang Hadiah Motor" class="testi-photo" />
-      <p class="testi-caption">"Syukur dapat motor baru untuk keluarga! Rezeki yang tak ternilai." — Nurul, Johor Bahru</p>
+      <img src="img/testi2.jpg" alt="Doa dan Sokongan Asnaf" class="testi-photo" />
+      <p class="testi-caption">"Doa dan sokongan moral Ustaz Ebit Lew memberi harapan baharu kepada kami sekeluarga." — Pak Din, Kedah</p>
     </div>
     <div class="testi-card">
-      <img src="img/new.png" alt="Pemenang Hadiah Kereta, Wang Tunai dan Sumbangan" class="testi-photo" />
-      <p class="testi-caption">"Alhamdulillah menang Kereta, Wang Tunai dan Sumbangan! Rezeki Allah SWT." — Hafiz, Selangor</p>
+      <img src="img/testi3.jpg" alt="Bantuan Makanan Asas" class="testi-photo" />
+      <p class="testi-caption">"Syukur bantuan bekalan makanan asas sampai terus ke hadapan rumah kami. Terima kasih Ustaz!" — Puan Salmah, Perak</p>
     </div>
     <div class="testi-card">
-      <img src="img/foto5.png" alt="Pemenang Hadiah Umrah Satu Keluarga" class="testi-photo" />
-      <p class="testi-caption">"Hadiah Umrah untuk satu keluarga, impian jadi kenyataan. Terima kasih!" — Keluarga Ustaz Azman, Melaka</p>
+      <img src="img/testi4.jpg" alt="Santuni Komuniti" class="testi-photo" />
+      <p class="testi-caption">"Kunjungan kasih Ustaz Ebit Lew menyantuni pekerja dan penduduk komuniti kami. Rezeki yang tak disangka." — Ramli, Selangor</p>
+    </div>
+    <div class="testi-card">
+      <img src="img/testi5.jpg" alt="Bantuan Wang Tunai Kanak-Kanak" class="testi-photo" />
+      <p class="testi-caption">"Alhamdulillah, sumbangan wang tunai bagi meringankan beban anak-anak dan keluarga kami." — Puan Mariam, Johor</p>
+    </div>
+    <div class="testi-card">
+      <img src="img/testi6.jpg" alt="Agihan Pek Makanan Komuniti" class="testi-photo" />
+      <p class="testi-caption">"Agihan pek makanan dan keperluan harian buat warga yang terkesan. Semoga Allah balas kebaikan Ustaz!" — Roslan, Kelantan</p>
     </div>
   </div>
 </section>
 
 <!-- ===== 3. CUPLIKAN VIDEO ===== -->
-<section class="section" id="video" style="background: #fffdf7; max-width: 100%; border-radius: 0;">
+<section class="section" id="video" style="background: #f0fdfa; max-width: 100%; border-radius: 0;">
   <div style="max-width: 1100px; margin: 0 auto;">
     <h2 class="section-title">Cuplikan Video</h2>
-    <p class="section-subtitle">Tonton momen pembahagian hadiah dan kegembiraan pemenang</p>
+    <p class="section-subtitle">Tonton momen penuh kasih sayang dan pembahagian hadiah bersama Ustaz Ebit Lew</p>
     <div class="video-grid">
-      <div class="video-wrap">
-        <iframe src="https://www.tiktok.com/embed/v2/7358070948429303057" title="TikTok Video 1" allowfullscreen loading="lazy"></iframe>
+      <div class="video-item-box">
+        <div class="video-wrap">
+          <iframe src="https://www.tiktok.com/embed/v2/7128753428171443482" title="Cuplikan Video Ustaz Ebit Lew 1" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <a href="https://vt.tiktok.com/ZSp9AKeh8/" target="_blank" rel="noopener noreferrer" class="video-direct-link">
+          ▶️ Buka di TikTok (Video 1)
+        </a>
       </div>
-      <div class="video-wrap">
-        <iframe src="https://www.tiktok.com/embed/v2/7577683898478464264" title="TikTok Video 2" allowfullscreen loading="lazy"></iframe>
+      <div class="video-item-box">
+        <div class="video-wrap">
+          <iframe src="https://www.tiktok.com/embed/v2/7091820509247196442" title="Cuplikan Video Ustaz Ebit Lew 2" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <a href="https://vt.tiktok.com/ZSp9Ackke/" target="_blank" rel="noopener noreferrer" class="video-direct-link">
+          ▶️ Buka di TikTok (Video 2)
+        </a>
       </div>
     </div>
   </div>
@@ -748,7 +813,7 @@
 <!-- ===== 4. UNDIAN BERKONGSI ===== -->
 <section class="section" id="undian">
   <h2 class="section-title">Undian Berkongsi</h2>
-  <p class="section-subtitle">Isi borang, kemudian pusing roda untuk mengetahui hadiah anda!</p>
+  <p class="section-subtitle">Isi borang di bawah, kemudian pusing roda untuk mengetahui hadiah rezeki anda!</p>
 
   <!-- Prize tags -->
   <div class="prizes-display">
@@ -772,13 +837,13 @@
         <textarea id="alamat" name="alamat" placeholder="Masukkan alamat penuh anda"></textarea>
         <div class="form-error" id="err-alamat">Alamat wajib diisi.</div>
       </div>
-      <button type="submit" class="btn-primary" id="daftarBtn">Daftar & Terus Pusing</button>
+      <button type="submit" class="btn-primary" id="daftarBtn">Daftar &amp; Terus Pusing</button>
     </form>
   </div>
 
   <!-- Spin wheel section -->
   <div class="spin-section" id="spinSection">
-    <h3 style="font-size: 1.3rem; margin-bottom: 20px; color: #8b6914;">Pusing Undian Anda!</h3>
+    <h3 style="font-size: 1.3rem; margin-bottom: 20px; color: #0f766e; font-weight: 800;">Pusing Undian Rezeki Anda!</h3>
     <div class="wheel-container">
       <div class="wheel-pointer"></div>
       <div class="wheel" id="wheel"></div>
@@ -789,18 +854,18 @@
     <!-- Result -->
     <div class="spin-result" id="spinResult">
       <div class="spin-result-text" id="spinResultText"></div>
-      <a href="#" id="waLink" class="btn-whatsapp" target="_blank">
-        <span>💬</span> Hantar ke WhatsApp
+      <a href="#" id="waLink" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+        <span>💬</span> Hantar ke WhatsApp Admin
       </a>
     </div>
   </div>
 </section>
 
 <!-- ===== 5. KUIZ SERONOK ===== -->
-<section class="section" id="kuis" style="background: #fffdf7; max-width: 100%; border-radius: 0;">
+<section class="section" id="kuis" style="background: #f0fdfa; max-width: 100%; border-radius: 0;">
   <div style="max-width: 1100px; margin: 0 auto;">
-    <h2 class="section-title">Kuiz Seronok</h2>
-    <p class="section-subtitle">Jawab 5 soalan tentang DatoSeriVida dan dapatkan bukti penyelesaian!</p>
+    <h2 class="section-title">Kuiz Seronok Ebit Lew</h2>
+    <p class="section-subtitle">Jawab 5 soalan tentang Ustaz Ebit Lew dan dapatkan bukti penyelesaian kuiz!</p>
 
     <div class="quiz-container">
       <!-- Quiz progress -->
@@ -822,12 +887,12 @@
 
         <!-- Disclaimer -->
         <div class="quiz-disclaimer">
-          📸 Sila screenshot gambar ini sebagai bukti bahawa kuiz yang anda selesaikan adalah benar.
+          📸 Sila screenshot bukti keputusan ini dan hantar ke WhatsApp rasmi untuk pengesahan hadiah.
         </div>
 
         <!-- WhatsApp + Retry buttons -->
-        <a href="#" id="quizWaLink" class="btn-wa-green" target="_blank">
-          <span>💬</span> Hantar Screenshot ke WhatsApp Admin
+        <a href="#" id="quizWaLink" class="btn-wa-green" target="_blank" rel="noopener noreferrer">
+          <span>💬</span> Hantar Bukti ke WhatsApp Admin
         </a>
         <button class="btn-retry" onclick="resetQuiz()">Ulangi Kuiz</button>
       </div>
@@ -837,20 +902,20 @@
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
-  <h3>DatoSeriVida Berkongsi</h3>
-  <p>Berkongsi Kebahagiaan Untuk Semua</p>
-  <p style="margin-top: 8px; font-size: 0.8rem;">&copy; 2025 DatoSeriVida Berkongsi. Hak cipta terpelihara.</p>
+  <h3>Ebit Lew Berkongsi</h3>
+  <p>Berkongsi Kasih Sayang &amp; Kebahagiaan Untuk Semua</p>
+  <p style="margin-top: 8px; font-size: 0.8rem;">&copy; 2026 Ebit Lew Berkongsi. Hak cipta terpelihara.</p>
 </footer>
 
 <script>
 /* ============================================================
-   CONFETTI ANIMATION
+   CONFETTI ANIMATION (Teal / Emerald / Cyan / White)
    ============================================================ */
 (function() {
   var canvas = document.getElementById('confetti-canvas');
   var ctx = canvas.getContext('2d');
   var particles = [];
-  var colors = ['#f0c75e', '#d4af37', '#8b6914', '#daa520', '#fff8e1', '#fff'];
+  var colors = ['#0d9488', '#059669', '#10b981', '#0284c7', '#38bdf8', '#34d399', '#ffffff'];
 
   function resize() {
     canvas.width = window.innerWidth;
@@ -916,15 +981,15 @@
 /* ============================================================
    UNDIAN BERKONGSI — FORM & SPIN WHEEL
    ============================================================ */
-var WA_NUMBER = "601153594110";
+var WA_NUMBER = "60182044189";
 var spinPrizes = ["Hadiah Umrah", "Wang Tunai", "Kereta", "Motor", "Pakej Modal Perniagaan"];
 var spinResult = null;
 var isSpinning = false;
 
-// Build wheel segments (5 prizes)
+// Build wheel segments (5 prizes) with non-gold emerald & teal colors
 (function buildWheel() {
   var wheel = document.getElementById('wheel');
-  var colors = ['#d4af37', '#f0c75e', '#daa520', '#e6c200', '#c9a227'];
+  var colors = ['#0d9488', '#059669', '#0284c7', '#0f766e', '#0891b2'];
   var segmentAngle = 360 / spinPrizes.length;
 
   var gradient = 'conic-gradient(';
@@ -1000,8 +1065,6 @@ function spinWheel() {
     var resultDiv = document.getElementById('spinResult');
     var resultText = document.getElementById('spinResultText');
 
-    // Map prize to emoji for a more exciting result display
-    // Map prize to emoji for a more exciting result display
     var prizeEmoji = {
       'Hadiah Umrah': '🕌',
       'Wang Tunai': '💰',
@@ -1012,16 +1075,16 @@ function spinWheel() {
     var emoji = prizeEmoji[spinResult] || '🎁';
 
     resultText.innerHTML = '<div style="font-size: 2.2rem; margin-bottom: 8px;">' + emoji + '</div>' +
-      '<div style="font-size: 1.4rem; font-weight: 800; color: #4a3c2a;">' + (nama || 'Pemenang') + '</div>' +
-      '<div style="font-size: 1.1rem; color: #8a7a5a; margin-top: 4px;">Anda mendapat:</div>' +
-      '<div style="font-size: 1.5rem; font-weight: 800; color: #b8941f; margin-top: 6px;">' + spinResult + '</div>';
+      '<div style="font-size: 1.4rem; font-weight: 800; color: #0f172a;">' + (nama || 'Pemenang Bertuah') + '</div>' +
+      '<div style="font-size: 1.05rem; color: #64748b; margin-top: 4px;">Tahniah! Anda memenangi:</div>' +
+      '<div style="font-size: 1.6rem; font-weight: 800; color: #0f766e; margin-top: 6px;">' + spinResult + '</div>';
     resultDiv.classList.add('show');
 
-    var msg = '*DatoSeriVida Berkongsi — Pendaftaran Undian*\n\n';
+    var msg = '*Ebit Lew Berkongsi — Pendaftaran Undian*\n\n';
     msg += 'Nama: ' + nama + '\n';
     msg += 'Alamat: ' + alamat + '\n';
-    msg += 'Hadiah: ' + spinResult + '\n\n';
-    msg += 'Mohon maklumat lanjut. Terima kasih! 🙏';
+    msg += 'Hadiah Pusingan: ' + spinResult + '\n\n';
+    msg += 'Mohon maklumat lanjut untuk tuntutan hadiah. Terima kasih Ustaz Ebit Lew! 🙏';
 
     var waUrl = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
     document.getElementById('waLink').href = waUrl;
@@ -1033,38 +1096,38 @@ function spinWheel() {
 
 
 /* ============================================================
-   KUIZ SERONOK
+   KUIZ SERONOK — SOALAN MENGENAI EBIT LEW
    ============================================================ */
 var quizData = [
   {
-    q: "Siapakah nama lengkap asli dari pengusaha yang dikenal sebagai Dato' Seri Vida?",
-    options: ["A. Hasmiza binti Othman", "B. Haslinda binti Ramli", "C. Siti Nurhaliza binti Othman", "D. Wan Azmi bin Wan Hamzah"],
+    q: "Siapakah nama penuh kelahiran Ustaz Ebit Lew?",
+    options: ["A. Ebit Irawan bin Ibrahim Lew (Lew Yun Pau)", "B. Ahmad Ebit bin Abdullah", "C. Muhammad Ridzuan Lew", "D. Ibrahim Lew bin Osman"],
     correct: 0,
-    explanation: "Nama asli Dato' Seri Vida yang tertera di dokumen resmi dan kartu identitasnya adalah Hasmiza binti Othman."
+    explanation: "Ustaz Ebit Lew dilahirkan dengan nama Lew Yun Pau dan nama Islam rasmi beliau ialah Ebit Irawan bin Ibrahim Lew."
   },
   {
-    q: "Di negara bagian (negeri) manakah Dato' Seri Vida dilahirkan?",
-    options: ["A. Selangor", "B. Kelantan", "C. Johor", "D. Perak"],
+    q: "Di negeri manakah Ustaz Ebit Lew dilahirkan?",
+    options: ["A. Kelantan", "B. Pahang (Muadzam Shah)", "C. Kedah", "D. Johor"],
     correct: 1,
-    explanation: "Beliau dilahirkan di Machang, Kelantan, Malaysia pada tanggal 24 Oktober 1971."
+    explanation: "Beliau dilahirkan di Muadzam Shah, Pahang pada 21 Disember 1984."
   },
   {
-    q: "Apa nama produk minuman kesehatan legendaris yang sukses melambungkan nama perusahaan Vida Beauty?",
-    options: ["A. Qu Puteh", "B. Pamoga", "C. D'Herbs", "D. Jamu Jelita"],
-    correct: 1,
-    explanation: "Meskipun Qu Puteh sangat terkenal, Pamoga adalah produk minuman kesehatan pertama yang menjadi pilar utama kesuksesan finansial awal kerajaan bisnisnya."
-  },
-  {
-    q: "Sebelum menjadi seorang miliarder dan pengusaha kosmetik sukses, profesi apa yang sempat ditekuni oleh Dato' Seri Vida?",
-    options: ["A. Pramugari", "B. Dokter hewan", "C. Guru sekolah", "D. Pengacara"],
-    correct: 2,
-    explanation: "Beliau memegang ijazah sarjana pendidikan dari USM dan sempat mengajar di sekolah sebelum memutuskan fokus sepenuhnya ke dunia bisnis."
-  },
-  {
-    q: "Apa judul lagu debut viral yang dinyanyikan oleh Dato' Seri Vida hingga membuatnya terkenal di Indonesia dan Malaysia?",
-    options: ["A. I Am Me", "B. Lavida Raya", "C. Ku Ikhlas", "D. Aku Putih"],
+    q: "Apakah nama rangkaian pasar raya dan inisiatif food bank yang pernah diasaskan oleh Ustaz Ebit Lew?",
+    options: ["A. Elewsmart", "B. Mydin Mart", "C. Vida Mart", "D. Kasih Mart"],
     correct: 0,
-    explanation: "Lagu \"I AM ME\" yang dirilis pada tahun 2017 menjadi sensasi internet global karena liriknya yang adiktif dan konsep video klipnya yang super mewah."
+    explanation: "Elewsmart diasaskan oleh beliau dengan konsep pasar raya mampu milik serta menyediakan Food Bank percuma bagi mereka yang kelaparan."
+  },
+  {
+    q: "Apakah nama jenama butik busana muslimah dan kurta terkenal milik Ustaz Ebit Lew?",
+    options: ["A. Elews Design", "B. Jakel", "C. Prima Valet", "D. Bulan Bintang"],
+    correct: 0,
+    explanation: "Elews Design merupakan jenama pakaian dan jubah yang diusahakan oleh Ustaz Ebit Lew."
+  },
+  {
+    q: "Apakah slogan atau mesej dakwah penuh kasih sayang yang sinonim dan sering diucapkan oleh Ustaz Ebit Lew?",
+    options: ["A. Sayang Semuanya & Ingat Allah Sayang", "B. Aku Kaya & Berjaya", "C. Qu Puteh Barulah Putih", "D. Sempoi Memang Terbaik"],
+    correct: 0,
+    explanation: "Ustaz Ebit Lew sentiasa menekankan mesej kasih sayang dengan ucapan 'Sayang semuanya kerana Allah' dalam setiap misi bantuan kemanusiaannya."
   }
 ];
 
@@ -1113,13 +1176,13 @@ function answerQuestion(selectedIndex) {
   if (isCorrect) {
     options[selectedIndex].classList.add('correct');
     feedback.className = 'quiz-feedback correct show';
-    feedback.innerHTML = '✅ <strong>Betul!</strong><br><span style="display:block;margin-top:6px;">' + q.explanation + '</span>';
+    feedback.innerHTML = '✅ <strong>Tepat &amp; Betul!</strong><br><span style="display:block;margin-top:6px;">' + q.explanation + '</span>';
     quizScore++;
   } else {
     options[selectedIndex].classList.add('wrong');
     options[q.correct].classList.add('correct');
     feedback.className = 'quiz-feedback wrong show';
-    feedback.innerHTML = '❌ <strong>Salah.</strong> Jawapan betul: <strong>' + q.options[q.correct] + '</strong><br><span style="display:block;margin-top:6px;">' + q.explanation + '</span>';
+    feedback.innerHTML = '❌ <strong>Kurang Tepat.</strong> Jawapan yang betul: <strong>' + q.options[q.correct] + '</strong><br><span style="display:block;margin-top:6px;">' + q.explanation + '</span>';
   }
 
   quizAnswers.push({
@@ -1151,35 +1214,35 @@ function showQuizResult() {
   document.getElementById('quizScore').textContent = scoreText;
 
   var label = '';
-  if (quizScore === 5) label = '🎉 Sempurna! Anda hebat betul!';
-  else if (quizScore >= 3) label = '👍 Tak badan! Teruskan usaha!';
-  else label = '💪 Jangan putus asa, cuba lagi ya!';
+  if (quizScore === 5) label = '🎉 Masya-Allah! Anda kenal rapat Ustaz Ebit Lew!';
+  else if (quizScore >= 3) label = '👍 Tahniah! Keputusan yang sangat baik!';
+  else label = '💪 Jangan putus asa, boleh cuba ulangi kuiz ini semula!';
   document.getElementById('quizScoreLabel').textContent = label;
 
   var scoreEl = document.getElementById('quizScore');
-  if (quizScore >= 4) scoreEl.style.color = '#4caf50';
-  else if (quizScore >= 3) scoreEl.style.color = '#d4af37';
-  else scoreEl.style.color = '#e53935';
+  if (quizScore >= 4) scoreEl.style.color = '#059669';
+  else if (quizScore >= 3) scoreEl.style.color = '#0d9488';
+  else scoreEl.style.color = '#dc2626';
 
   var proofHtml = '';
   for (var i = 0; i < quizAnswers.length; i++) {
     var a = quizAnswers[i];
     proofHtml += '<div class="quiz-proof-item">';
     proofHtml += '<span><strong>' + (i + 1) + '.</strong> ' + a.question + '<br>';
-    proofHtml += '<small>Jawapan: ' + a.selected + '</small></span>';
+    proofHtml += '<small style="color: #64748b;">Jawapan: ' + a.selected + '</small></span>';
     proofHtml += '<span class="proof-badge ' + (a.isCorrect ? 'correct' : 'wrong') + '">' + (a.isCorrect ? 'BETUL' : 'SALAH') + '</span>';
     proofHtml += '</div>';
   }
   document.getElementById('proofList').innerHTML = proofHtml;
 
-  var msg = '*DatoSeriVida Berkongsi — Bukti Kuiz*\n\n';
+  var msg = '*Ebit Lew Berkongsi — Bukti Kuiz*\n\n';
   msg += 'Skor: ' + quizScore + '/' + quizData.length + '\n\n';
-  msg += 'Butiran Jawapan:\n';
+  msg += 'Butiran Jawapan Kuiz:\n';
   for (var j = 0; j < quizAnswers.length; j++) {
     var a2 = quizAnswers[j];
     msg += (j + 1) + '. ' + (a2.isCorrect ? 'BETUL' : 'SALAH') + ' — ' + a2.selected + '\n';
   }
-  msg += '\nMohon sahkan bukti kuiz saya. Terima kasih! 🙏';
+  msg += '\nMohon sahkan bukti penyelesaian kuiz saya. Terima kasih Ustaz Ebit Lew! 🙏';
 
   var waUrl = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(msg);
   document.getElementById('quizWaLink').href = waUrl;
